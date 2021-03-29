@@ -1,0 +1,21 @@
+h1 {
+    color: green;
+}
+h2 {
+    color: greenyellow;
+}
+h3{
+    color: lawngreen;
+}
+img{
+    width: 18vh;
+    height: auto;
+    align-self: start right;
+}
+.job{
+    color: rgb(133, 219, 62);
+    text-align: justify;
+}
+.job2{
+    text-align: justify;
+}
