@@ -10,12 +10,63 @@ h3{
 img{
     width: 18vh;
     height: auto;
-    align-self: start right;
+}
+.ansch1{
+    margin-left: 12%;
+}
+.ansch2{
+    margin-left: 16%;
+}
+.mail{
+    margin-left: 14%;
+}
+.tel{
+    margin-left: 13%;
+}
+.web{
+    margin-left: 14%;
+}
+.geb{
+    margin-left: 12%;
+}
+.staat{
+    margin-left: 9%;
+}
+.fam{
+    margin-left: 11%;
 }
 .job{
     color: rgb(133, 219, 62);
-    text-align: justify;
 }
 .job2{
-    text-align: justify;
+    margin-left: 10%;
+}
+.job3{
+    margin-left: 9%;
+}
+.aufgabe{
+    margin-left: 16%;
+}
+.lang{
+    margin-left: 12%;
+}
+.lang2{
+    margin-left: 16%;
+}
+.lang3{
+    margin-left: 11%;
+}
+.int{
+    margin-left: 5%;
+}
+.int2{
+    margin-left: 16%;
+}.hob{
+    margin-left: 13%;
+}
+.hob2{
+    margin-left: 16%;
+}
+.hob3{
+    margin-left: 16%;
 }
