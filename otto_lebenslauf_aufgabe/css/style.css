@@ -5,7 +5,7 @@ h2 {
     color: greenyellow;
 }
 h3{
-    color: lawngreen;
+    color: rgb(247, 23, 23);
 }
 img{
     width: 18vh;
@@ -61,7 +61,8 @@ img{
 }
 .int2{
     margin-left: 15.8%;
-}.hob{
+}
+.hob{
     margin-left: 12.6%;
 }
 .hob2{
