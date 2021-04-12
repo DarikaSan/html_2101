@@ -12,7 +12,6 @@ div {
 
 /* kleine Bildschirme */
 /* mobile first */
-@media {
     .col-1 {
         width: 100%;
         height: auto;
@@ -37,7 +36,6 @@ div {
         width: 100%;
         height: auto;
     }
-}
 
 @media (min-width: 50em) {
     /* mittlere Bildschirme */
