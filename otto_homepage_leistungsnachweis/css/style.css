@@ -6,3 +6,6 @@
   width: 95vw;
   height: auto;
 }
+.container-fluid {
+  background-color: #2c3840;
+}
