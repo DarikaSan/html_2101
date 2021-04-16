@@ -18,8 +18,11 @@ body {
 h3 {
     color: #198754;
 }
-.txt-main {
+p {
   color: #198754;  
+}
+img {
+  float: right;
 }
 .panel-footer {
     background-color: #198754;
