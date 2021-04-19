@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
 </head>
 
 <body>
@@ -25,12 +27,12 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="home.html">Home</a></li>
-                    <li class="dropdown">
+                    <li class=""><a href="home.html">Home</a></li>
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Der Ursprung<span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="entstehung.html">Die Entstehung</a></li>
+                            <li class="active"><a href="entstehung.html">Die Entstehung</a></li>
                             <li><a href="autoren.html">Weitere Autoren</a></li>
                         </ul>
                     </li>
@@ -83,17 +85,16 @@
     </nav>
 
     <div class="container">
-        <h3>Cthulhu-Mythos</h3>
-        <p class="col-lg-9">
-            Der Cthulhu-Mythos umfasst die vom amerikanischen Schriftsteller H. P. Lovecraft und anderen Autoren der
-            Horrorliteratur erdachten Personen, Orte, Wesenheiten und Geschichten. Bekanntester Bestandteil dieses
-            Mythos ist das ebenfalls fiktive Buch Necronomicon, in dem die interstellaren Wesenheiten mit
-            übernatürlichen Kräften genauestens beschrieben sind. Diese Wesen werden von Lovecraft als die „Alten“ oder
-            die „Großen Alten“ bezeichnet. Sie stammen aus weit entfernten Teilen der Galaxis oder sogar des Universums
-            und unterliegen keinen uns bekannten Naturgesetzen. Nach menschlichen Maßstäben verfügen sie über eine
-            gottgleiche Macht und scheinen unsterblich zu sein.
-        </p>
+        <h3>Galerie</h3>
+
+        <a href="pics/h_p_lovecraft.jpg" data-lightbox="image-1" data-title="H. P. Lovecraft">
+            <img src="pics/h_p_lovecraft.jpg"></a>
+
+        <a href="images/image-2.jpg" data-lightbox="roadtrip">Image #2</a>
+        <a href="images/image-3.jpg" data-lightbox="roadtrip">Image #3</a>
+        <a href="images/image-4.jpg" data-lightbox="roadtrip">Image #4</a>
     </div>
+
 
     <div class="footer">
         <div id="button"></div>
