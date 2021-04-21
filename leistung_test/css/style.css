@@ -31,9 +31,9 @@ p {
   width: 100px;
   height: auto;
 }
+/* Footer */
 .panel-footer {
-  background-color: #198754;
-    
+  background-color: #198754;   
 }
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body{
