@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   */
 } 
+
 /* .container {
   border: solid yellow;
 } */
@@ -26,11 +27,8 @@ h3 {
 p {
   color: #198754;  
 }
-/* .div-img {
-  float: right;
-} */
 .hp {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 .panel-footer {
