@@ -7,9 +7,12 @@ body {
   */
 } 
 
-/* .container {
-  border: solid yellow;
-} */
+/* Beginn Head */
+
+.navbar-brand {
+  pointer-events: none;
+}
+
 .container-fluid {
   background-color: #198754;
 }
@@ -21,17 +24,24 @@ body {
 .caret {  
   color: #198754;
 } */
+
+/* Beginn Center */
+
 h3 {
   color: #198754;
 }
 p {
   color: #198754;  
 }
-.hp {
-  width: 100px;
-  height: auto;
+li a {
+  text-decoration: none;
+  color: #198754;  
 }
-/* Footer */
+.img {
+  width: 100px;
+  height: 130px;
+}
+/* Beginn Footer */
 .panel-footer {
   background-color: #198754;   
 }
@@ -122,7 +132,7 @@ height:100%;
 	margin-left:40px;
 }
 
-/* Contact us */
+/* Beginn Contact us */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
