@@ -1,10 +1,9 @@
 body {
   background-image: url(../pics/background_html.jpg);
-  /* 
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  */
+ 
 } 
 
 /* Beginn Head */
@@ -26,8 +25,16 @@ body {
 } */
 
 /* Beginn Center */
-
+h1 {
+  color: #198754;
+}
+h2 {
+  color: #198754;
+}
 h3 {
+  color: #198754;
+}
+h4 {
   color: #198754;
 }
 p {
@@ -105,7 +112,7 @@ section{
 .footer #container{
 	margin-top:5px;
 	width:100%;
-height:100%;
+  height:100%;
   position:relative;
   top:0;
   left:0;
@@ -145,12 +152,11 @@ input,
 textarea {
   font-family: "Poppins", sans-serif;
 }
-.container2 {
+.container-cont {
   position: relative;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #020202;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -207,7 +213,7 @@ form {
 .title {
   color: #fff;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 0.7rem;
 }
@@ -223,7 +229,7 @@ form {
   padding: 0.6rem 1.2rem;
   color: #fff;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   letter-spacing: 0.5px;
   border-radius: 25px;
   transition: 0.3s;
@@ -235,6 +241,8 @@ textarea.input {
   resize: none;
   overflow-y: auto;
 }
+/* größen format problem hier */
+/* standart font-size: 0.5rem; */
 .input-container label {
   position: absolute;
   top: 50%;
@@ -242,12 +250,13 @@ textarea.input {
   transform: translateY(-50%);
   padding: 0 0.4rem;
   color: #fafafa;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 400;
   pointer-events: none;
   z-index: 1000;
   transition: 0.5s;
 }
+/* größen format problem hier */
 .input-container.textarea label {
   top: 1rem;
   transform: translateY(0);
@@ -256,7 +265,7 @@ textarea.input {
   padding: 0.6rem 1.3rem;
   background-color: #fff;
   border: 2px solid #fafafa;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   color: #1abc9c;
   line-height: 1;
   border-radius: 25px;
@@ -329,7 +338,7 @@ textarea.input {
   color: #555;
   margin: 0.7rem 0;
   align-items: center;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
 }
 .icon {
   width: 28px;
